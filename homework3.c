@@ -87,6 +87,7 @@ void changeLaunchpadLED2(unsigned int count)
             break;
         case 4:
             turnOn_LaunchpadLED2Red();      // White
+            turnOn_LaunchpadLED2Blue();
             break;
         case 5:
             turnOff_LaunchpadLED2Green();   // Magenta
